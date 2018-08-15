@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+          <groupId>org.bonej</groupId>
+          <artifactId>bonej-aggregator</artifactId>
+          <version>RELEASE</version>
+	  <relativePath />
+	</parent>
+
+	<artifactId>bonej-javadoc</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<name>BoneJ Javadocs</name>
+	<description>All the Javadocs for BoneJ.</description>
+	<url>https://javadoc.scijava.org/BoneJ/</url>
+	<inceptionYear>2018</inceptionYear>
+	<organization>
+	  <name>BoneJ</name>
+	  <url>http://imagej.net/BoneJ/</url>
+	</organization>
+	<licenses>
+          <license>
+            <name>Simplified BSD License</name>
+            <distribution>repo</distribution>
+          </license>
+	</licenses>
+
+	<developers>
+        <developer>
+            <id>mdoube</id>
+            <name>Michael Doube</name>
+            <email>mdoube@rvc.ac.uk</email>
+            <url>http://www.rvc.ac.uk/about/our-people/michael-doube</url>
+            <organization>Royal Veterinary College</organization>
+            <organizationUrl>http://www.rvc.ac.uk/</organizationUrl>
+            <roles>
+                <role>founder</role>
+                <role>lead</role>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+				<role>maintainer</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+        <developer>
+            <id>rimadoma</id>
+            <name>Richard Domander</name>
+            <email>rdomander@rvc.ac.uk</email>
+            <organization>Royal Veterinary College</organization>
+            <organizationUrl>http://www.rvc.ac.uk/</organizationUrl>
+            <roles>
+                <role>developer</role>
+                <role>debugger</role>
+                <role>reviewer</role>
+                <role>support</role>
+                <role>maintainer</role>
+            </roles>
+            <timezone>+0</timezone>
+        </developer>
+        <developer>
+            <id>alessandrofelder</id>
+            <name>Alessandro Felder</name>
+            <email>afelder@rvc.ac.uk</email>
+            <organization>Royal Veterinary College</organization>
+            <organizationUrl>http://www.rvc.ac.uk/</organizationUrl>
+            <roles>
+                <role>developer</role>
+                <role>debugger</role>
+                <role>reviewer</role>
+                <role>support</role>
+                <role>maintainer</role>
+            </roles>
+            <timezone>+0</timezone>
+        </developer>
+        <developer>
+            <id>ctrueden</id>
+            <name>Curtis Rueden</name>
+            <email>ctrueden@wisc.edu</email>
+            <url>http://loci.wisc.edu/people/curtis-rueden</url>
+            <organization>UW-Madison LOCI</organization>
+            <organizationUrl>http://loci.wisc.edu/</organizationUrl>
+            <roles>
+                <role>maintainer</role>
+            </roles>
+            <timezone>-6</timezone>
+        </developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Mark Hiner</name>
+			<url>http://imagej.net/User:Hinerm</url>
+			<properties><id>hinerm</id></properties>
+		</contributor>
+	</contributors>
+
+	<mailingLists>
+		<mailingList>
+			<name>Image.sc Forum</name>
+			<archive>https://forum.image.sc/</archive>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:git://github.com/bonej-org/bonej-javadoc</connection>
+		<developerConnection>scm:git:git@github.com:bonej-org/bonej-javadoc</developerConnection>
+		<tag>HEAD</tag>
+		<url>http://github.com/bonej-org/bonej-javadoc/issues</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>http://github.com/bonej-org/bonej-javadoc/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/bonej-org/bonej-javadoc</url>
+	</ciManagement>
+
+	<properties>
+		<license.licenseName>BSD-2-Clause</license.licenseName>
+		<license.copyrightOwners>Michael Doube, BoneJ developers</license.copyrightOwners>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.bonej</groupId>
+			<artifactId>bonej-legacy-plugins_</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bonej</groupId>
+			<artifactId>bonej-legacy-util_</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bonej</groupId>
+			<artifactId>bonej-utilities</artifactId>
+			<version>0.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bonej</groupId>
+			<artifactId>bonej-ops</artifactId>
+			<version>0.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bonej</groupId>
+			<artifactId>bonej-plugins</artifactId>
+			<version>0.4.0</version>
+		</dependency>
+	</dependencies>
+</project>
