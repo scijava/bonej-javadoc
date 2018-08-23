@@ -123,6 +123,11 @@
 	<properties>
 		<license.licenseName>BSD-2-Clause</license.licenseName>
 		<license.copyrightOwners>Michael Doube, BoneJ developers</license.copyrightOwners>
+		<bonej-legacy-plugins.version>4.0.0</bonej-legacy-plugins.version>
+		<bonej-legacy-util.version>4.0.0</bonej-legacy-util.version>
+		<bonej-utilities.version>0.4.0</bonej-utilities.version>
+		<bonej-ops.version>0.4.0</bonej-ops.version>
+		<bonej-plugins.version>0.4.0</bonej-plugins.version>
 	</properties>
 
 	<repositories>
@@ -136,27 +141,27 @@
 		<dependency>
 			<groupId>org.bonej</groupId>
 			<artifactId>bonej-legacy-plugins_</artifactId>
-			<version>4.0.0</version>
+			<version>${bonej-legacy-plugins.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.bonej</groupId>
 			<artifactId>bonej-legacy-util_</artifactId>
-			<version>4.0.0</version>
+			<version>${bonej-legacy-util.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.bonej</groupId>
 			<artifactId>bonej-utilities</artifactId>
-			<version>0.4.0</version>
+			<version>${bonej-utilities.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.bonej</groupId>
 			<artifactId>bonej-ops</artifactId>
-			<version>0.4.0</version>
+			<version>${bonej-ops.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.bonej</groupId>
 			<artifactId>bonej-plugins</artifactId>
-			<version>0.4.0</version>
+			<version>${bonej-plugins.version}</version>
 		</dependency>
 	</dependencies>
 </project>
