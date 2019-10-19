@@ -121,6 +121,7 @@
 	</ciManagement>
 
 	<properties>
+		<automatic-module-name>org.bonej.javadoc</automatic-module-name>
 		<license.licenseName>BSD-2-Clause</license.licenseName>
 		<license.copyrightOwners>Michael Doube, BoneJ developers</license.copyrightOwners>
 		<bonej-legacy-plugins.version>4.0.0</bonej-legacy-plugins.version>
