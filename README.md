@@ -1,3 +1,13 @@
-[![Build Status](https://travis-ci.org/bonej-org/bonej-javadoc.svg?branch=master)](https://travis-ci.org/bonej-org/bonej-javadoc)
+[![](https://github.com/bonej-org/bonej-javadoc/actions/workflows/build.yml/badge.svg)](https://github.com/bonej-org/bonej-javadoc/actions/workflows/build.yml)
 
-This repository hosts the BoneJ javadoc files, so that they can be displayed at https://javadoc.scijava.org/BoneJ/
+This project aggregates the javadoc of BoneJ components.
+
+They are built and pushed to the `BoneJ` folder of the
+[javadoc.scijava.org](https://github.com/scijava/javadoc.scijava.org)
+repository, which is published at:
+
+* https://javadoc.scijava.org/BoneJ/
+
+See also:
+
+* `ci-javadoc.sh` in [scijava-scripts](https://github.com/scijava/scijava-scripts).
