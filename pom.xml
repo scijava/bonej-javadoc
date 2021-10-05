@@ -11,7 +11,7 @@
 
 	<groupId>org.bonej</groupId>
 	<artifactId>bonej-javadoc</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0-SNAPSHOT</version>
 
 	<name>BoneJ Javadocs</name>
 	<description>All the Javadocs for BoneJ.</description>
@@ -124,11 +124,14 @@
 		<automatic-module-name>org.bonej.javadoc</automatic-module-name>
 		<license.licenseName>BSD-2-Clause</license.licenseName>
 		<license.copyrightOwners>Michael Doube, BoneJ developers</license.copyrightOwners>
-		<bonej-legacy-plugins.version>4.0.0</bonej-legacy-plugins.version>
-		<bonej-legacy-util.version>4.0.0</bonej-legacy-util.version>
-		<bonej-utilities.version>0.4.0</bonej-utilities.version>
-		<bonej-ops.version>0.4.0</bonej-ops.version>
-		<bonej-plugins.version>0.4.0</bonej-plugins.version>
+		<bonej-legacy-plugins.version>RELEASE</bonej-legacy-plugins.version>
+		<bonej-legacy-util.version>RELEASE</bonej-legacy-util.version>
+		<bonej-utilities.version>RELEASE</bonej-utilities.version>
+		<bonej-ops.version>RELEASE</bonej-ops.version>
+		<bonej-plugins.version>RELEASE</bonej-plugins.version>
+
+		<!-- NB: This component is not intended to be released! -->
+		<releaseProfiles>-</releaseProfiles>
 	</properties>
 
 	<repositories>
