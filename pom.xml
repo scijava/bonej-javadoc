@@ -116,8 +116,8 @@
 		<url>http://github.com/bonej-org/bonej-javadoc/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Travis CI</system>
-		<url>https://travis-ci.org/bonej-org/bonej-javadoc</url>
+		<system>GitHub Actions</system>
+		<url>http://github.com/bonej-org/bonej-javadoc/actions</url>
 	</ciManagement>
 
 	<properties>
