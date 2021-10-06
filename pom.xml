@@ -19,7 +19,7 @@
 	<inceptionYear>2018</inceptionYear>
 	<organization>
 		<name>BoneJ</name>
-		<url>https://imagej.net/BoneJ/</url>
+		<url>https://bonej.org/</url>
 	</organization>
 	<licenses>
 		<license>
@@ -32,10 +32,10 @@
 		<developer>
 			<id>mdoube</id>
 			<name>Michael Doube</name>
-			<email>mdoube@rvc.ac.uk</email>
-			<url>http://www.rvc.ac.uk/about/our-people/michael-doube</url>
-			<organization>Royal Veterinary College</organization>
-			<organizationUrl>http://www.rvc.ac.uk/</organizationUrl>
+			<email>mdoube@cityu.edu.hk</email>
+			<url>https://scholars.cityu.edu.hk/en/persons/michael-doube(e2acdf24-d9b3-4a48-a05d-ffcd72e7b758).html</url>
+			<organization>City University of Hong Kong</organization>
+			<organizationUrl>https://www.cityu.edu.hk/</organizationUrl>
 			<roles>
 				<role>founder</role>
 				<role>lead</role>
@@ -48,26 +48,11 @@
 			<timezone>+8</timezone>
 		</developer>
 		<developer>
-			<id>rimadoma</id>
-			<name>Richard Domander</name>
-			<email>rdomander@rvc.ac.uk</email>
-			<organization>Royal Veterinary College</organization>
-			<organizationUrl>http://www.rvc.ac.uk/</organizationUrl>
-			<roles>
-				<role>developer</role>
-				<role>debugger</role>
-				<role>reviewer</role>
-				<role>support</role>
-				<role>maintainer</role>
-			</roles>
-			<timezone>+0</timezone>
-		</developer>
-		<developer>
 			<id>alessandrofelder</id>
 			<name>Alessandro Felder</name>
 			<email>afelder@rvc.ac.uk</email>
 			<organization>Royal Veterinary College</organization>
-			<organizationUrl>http://www.rvc.ac.uk/</organizationUrl>
+			<organizationUrl>https://www.rvc.ac.uk/</organizationUrl>
 			<roles>
 				<role>developer</role>
 				<role>debugger</role>
@@ -80,20 +65,21 @@
 		<developer>
 			<id>ctrueden</id>
 			<name>Curtis Rueden</name>
-			<email>ctrueden@wisc.edu</email>
-			<url>http://loci.wisc.edu/people/curtis-rueden</url>
-			<organization>UW-Madison LOCI</organization>
-			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<url>https://imagej.net/people/ctrueden</url>
 			<roles>
 				<role>maintainer</role>
 			</roles>
-			<timezone>-6</timezone>
 		</developer>
 	</developers>
 	<contributors>
 		<contributor>
+			<name>Richard Domander</name>
+			<url>https://imagej.net/people/rimadoma</url>
+			<properties><id>rimadoma</id></properties>
+		</contributor>
+		<contributor>
 			<name>Mark Hiner</name>
-			<url>https://imagej.net/User:Hinerm</url>
+			<url>https://imagej.net/people/hinerm</url>
 			<properties><id>hinerm</id></properties>
 		</contributor>
 	</contributors>
@@ -101,7 +87,7 @@
 	<mailingLists>
 		<mailingList>
 			<name>Image.sc Forum</name>
-			<archive>https://forum.image.sc/tags/bonej</archive>
+			<archive>https://forum.image.sc/tag/bonej</archive>
 		</mailingList>
 	</mailingLists>
 
@@ -109,15 +95,15 @@
 		<connection>scm:git:git://github.com/bonej-org/bonej-javadoc</connection>
 		<developerConnection>scm:git:git@github.com:bonej-org/bonej-javadoc</developerConnection>
 		<tag>HEAD</tag>
-		<url>http://github.com/bonej-org/bonej-javadoc/issues</url>
+		<url>https://github.com/bonej-org/bonej-javadoc</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>http://github.com/bonej-org/bonej-javadoc/issues</url>
+		<url>https://github.com/bonej-org/bonej-javadoc/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>http://github.com/bonej-org/bonej-javadoc/actions</url>
+		<url>https://github.com/bonej-org/bonej-javadoc/actions</url>
 	</ciManagement>
 
 	<properties>
@@ -137,7 +123,7 @@
 	<repositories>
 		<repository>
 			<id>scijava.public</id>
-			<url>http://maven.scijava.org/content/groups/public</url>
+			<url>https://maven.scijava.org/content/groups/public</url>
 		</repository>
 	</repositories>
 
